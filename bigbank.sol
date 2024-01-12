@@ -94,6 +94,7 @@ contract bigbank is bank {
     }
 
     function bigbank_withdraw(uint amount) public {
+        super.withdraw(amount);
     }
 
 
